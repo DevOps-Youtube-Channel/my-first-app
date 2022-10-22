@@ -2,22 +2,9 @@ var Layout = function () {
     
     // detect mobile device
     var isMobileDevice = function() {
-        return  ((
-            navigator.userAgent.match(/Android/i) ||
-            navigator.userAgent.match(/BlackBerry/i) ||
-            navigator.userAgent.match(/iPhone|iPad|iPod/i) ||
-            navigator.userAgent.match(/Opera Mini/i) ||
-            navigator.userAgent.match(/IEMobile/i)
-        ) ? true : false);
-    }
+        
 
-    // handle on page scroll
-    var handleHeaderOnScroll = function() {
-        if ($(window).scrollTop() > 60) {
-            $("body").addClass("page-on-scroll");
-        } else {
-            $("body").removeClass("page-on-scroll");
-        }
+    
     }
 
     // Handle Header
