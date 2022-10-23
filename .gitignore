@@ -1,2 +1,1 @@
-general_log_file/*.log
-!general_log_file/some.log
+general_log_files/
