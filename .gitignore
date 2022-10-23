@@ -1,1 +1,2 @@
-general_log_files/
+farrukh/*.log
+!farrukh/fara2.log
