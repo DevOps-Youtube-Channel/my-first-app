@@ -1,0 +1,2 @@
+general_file/*.log
+!general_file/some.log
